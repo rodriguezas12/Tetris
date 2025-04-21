@@ -2,13 +2,15 @@ import pygame
 import os
 import subprocess
 
-# Inicializamos pygame
+# Inicializar pygame
 pygame.init()
 
-# Definimos las dimensiones de la ventana para pantalla completa
-info = pygame.display.Info()  # Obtiene la resolución actual de la pantalla
-WIDTH, HEIGHT = info.current_w, info.current_h  # Resolución de pantalla completa
-screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.FULLSCREEN)  # Pantalla completa
+# Obtener resolución de pantalla
+info = pygame.display.Info()
+WIDTH, HEIGHT = info.current_w, info.current_h
+
+# Crear ventana sin bordes y con tamaño completo
+screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.NOFRAME)
 pygame.display.set_caption("Game System")
 
 # Cargamos las imágenes de los juegos (sin redimensionar)
