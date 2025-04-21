@@ -1,0 +1,10 @@
+
+Name1: ['G', 'H', 'I', 'J', 'L', 'L']
+Score1: 440
+Lvl1: 6
+Name1: ['A', 'A', 'A', 'A', 'A', 'A']
+Score1: 260
+Lvl1: 8
+Name1: ['A', 'A', 'A', 'A', 'A', 'A']
+Score1: 140
+Lvl1: 0
